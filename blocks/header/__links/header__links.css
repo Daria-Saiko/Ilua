@@ -1,4 +1,4 @@
-.footer__links {
+.header__links {
     display: block;
     margin-top: 32px;
     font-family: Inter;
@@ -10,12 +10,12 @@
     color: rgb(0, 0, 0);
 }
 
-.footer__links:first-child {
+.header__links:first-child {
     margin-top: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .footer__links {
+    .header__links {
         text-align: center;
         font-size: 18px;
         margin: 0;
@@ -26,13 +26,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .footer__links:last-child {
+    .header__links:last-child {
         margin-right: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .footer__links {
+    .header__links {
         font-size: 16px;
         font-style: normal;
         line-height: 18px;
